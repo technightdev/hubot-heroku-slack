@@ -23,3 +23,9 @@ module.exports = (robot) ->
   robot.respond /DIE$/i, (msg) ->
     msg.send "Goodbye, cruel world."
     process.exit 0
+  robot.respond /ermagurd$/i, (msg) ->
+    var geoip = require('geoip-lite');
+
+    var ip = "207.97.227.239";
+    var geo = geoip.lookup(ip);
+    msg.send "uhhh no"
