@@ -23,12 +23,8 @@
   "dependencies": {
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
-<<<<<<< HEAD
-    "hubot-slack": "~3.3.0"
-=======
     "hubot-slack": "~3.3.0",
     "geoip": ">=0.10"
->>>>>>> refs/heads/master
   },
   "engines": {
     "node": ">= 6.11.x",
