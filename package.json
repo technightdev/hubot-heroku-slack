@@ -24,7 +24,7 @@
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-slack": "~3.3.0",
-    "geoip": "~0.6.1"
+    "geoip": ">=0.10"
   },
   "engines": {
     "node": ">= 6.11.x",
