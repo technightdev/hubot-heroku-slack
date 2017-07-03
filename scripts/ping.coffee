@@ -18,7 +18,7 @@ module.exports = (robot) ->
     msg.send msg.match[1]
 
   robot.respond /TIME$/i, (msg) ->
-    msg.send "Server time is: #{new Date()}"
+    msg.send "Heroku Server time is: #{new Date()}"
 
   robot.respond /DIE$/i, (msg) ->
     msg.send "Goodbye, cruel world."
