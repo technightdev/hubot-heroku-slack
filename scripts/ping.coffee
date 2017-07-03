@@ -2,7 +2,7 @@
 #   Utility commands surrounding Hubot uptime.
 #
 # Commands:
-#   hubot ping - Reply with pong
+#   hubot ping - Replies with pong
 #   hubot echo <text> - Reply back with <text>
 #   hubot time - Reply with current time
 #   hubot die - End hubot process
