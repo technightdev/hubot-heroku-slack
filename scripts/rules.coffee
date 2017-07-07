@@ -27,4 +27,5 @@ module.exports = (robot) ->
       msg.send otherRules.join('\n')
     else
       msg.send rules.join('\n')
+      msg.send process.env.TECH_NIGHT
 
